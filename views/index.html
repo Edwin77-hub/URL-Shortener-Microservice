@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <title>URL Shortener Microserice</title>
+      <link href="/public/style.css" rel="stylesheet" type="text/css">
+   </head>
+
+   <body>
+    <h1>freeCodeCamp Project: URL Shortener Microservice</h1>
+
+      <blockquote>
+        <p>User stories:</p>
+        <ol>
+          <li>I can pass a URL as a parameter and I will receive a 'shortened' URL in the JSON response.</li>
+          <li>If I pass an invalid URL that doesn't follow the valid http://www.example.com format, the JSON response will contain an error instead.</li>
+          <li>When I visit that shortened URL, it will redirect me to my original link.</li>
+        </ol>
+      </blockquote>
+
+      <h2>Example of generating a short-cut URL</h2>
+
+      <p>Entering:</p>
+
+      <pre><code>      https://url-shortener-microservice-pa.glitch.me/new/https://www.bbc.co.uk/weather/0/sp3</code></pre>
+
+      <p>will give a response similar to:</p>
+
+      <pre><code>      {
+          "original_url": "/https://www.bbc.co.uk/weather/0/sp3",
+          "short_url": "https://url-shortener-microservice-pa.glitch.me/1433"}
+      }</code></pre>
+
+      <h2>Example of using a short-cut URL</h2>
+
+      <p>Entering:</p>
+
+      <pre><code>      https://url-shortener-microservice-pa.glitch.me/1433</code></pre>
+
+      <p>will redirect to:</p>
+
+      <pre><code>      /https://www.bbc.co.uk/weather/0/sp3</code></pre>
+   </body>
+
+</html>
