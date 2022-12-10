@@ -23,7 +23,7 @@
   "author": "AtelesPaniscus",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.12.4",
+    "express": "^4.17.3",
     "mongodb": "^3.0.3",
     "valid-url": "^1.0.9"
   }
